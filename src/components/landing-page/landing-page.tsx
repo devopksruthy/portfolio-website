@@ -6,12 +6,12 @@ export default function LandingPage () {
         
          <div className="grid md:grid-cols-2 items-center h-[90vh]">
             <div className="p-2 order-2 md:order-none">
-                <h2 className="text-2xl">Hey, I'm Sruthy</h2>
+                <h2 className="text-2xl">Hey, I&apos;m Sruthy</h2>
                 <h1 className="font-bold text-6xl md:text-8xl">
                     <span className="text-cyan-800">Front</span>end Developer
                 </h1>
                 <p className="mt-8 text-2xl">
-                    I'm a frontend developer. I'll help you build beautiful websites your users will love.
+                    I&apos;m a frontend developer. I&apos;ll help you build beautiful websites your users will love.
                 </p>
                 <div className="mt-8">
                     <button type="button" className="bg-cyan-800 text-white rounded-md p-4 mr-3">

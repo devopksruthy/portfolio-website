@@ -1,10 +1,8 @@
 import React, { FC } from 'react';
 
-interface ExperienceProps {
 
-}
 
-const Experience: FC<ExperienceProps> = ({ }) => {
+const Experience: FC = ({ }) => {
     return (
 
         <div className='p-10'>
