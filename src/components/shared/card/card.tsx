@@ -14,7 +14,7 @@ interface CardProps {
   }
 }
 
-const Card: FC<CardProps> = ({ id,title, description, image ,button }) => {
+const Card: FC<CardProps> = ({ id, title, description, image, button }) => {
   return (
     <>
       <div className="bg-white rounded-lg shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
@@ -23,8 +23,7 @@ const Card: FC<CardProps> = ({ id,title, description, image ,button }) => {
           <h3 className="text-lg font-bold mb-2">{title}</h3>
           <p className="text-gray-600 mb-4 flex-grow">{description}</p>
           <div className="flex flex-wrap gap-2 mt-auto justify-center">
-              <Link href={`/projects/${id}`} className="border-1 border-solid rounded-md p-2 border-cyan-700 text-cyan-800 cursor-pointer ">{button.label}</Link>
-
+            <Link href={`/projects/${id}`} className="border-1 border-solid rounded-md p-2 border-cyan-700 text-cyan-800 cursor-pointer ">{button.label}</Link>
           </div>
         </div>
       </div>
