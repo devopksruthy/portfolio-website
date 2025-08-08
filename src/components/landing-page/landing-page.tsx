@@ -23,7 +23,7 @@ export default function LandingPage () {
                 </div>
             </div>
             <div className=" order-1 md:order-none">
-                <Image width={800} height={800} src="/profile.png" alt="profile image"/>
+                <Image width={800} height={800} src="/profile.webp" alt="profile image"/>
             </div>
         </div>
     )
