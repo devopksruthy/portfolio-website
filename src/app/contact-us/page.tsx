@@ -8,7 +8,7 @@ export default function ContactUs () {
                     <span className="text-cyan-800">G</span>
                     et In Touch.</h1>
                 <p className="text-2xl p-3 mb-8">
-                    Looking to  work together? Reach out through the form and I'll get back to you in the next 48 hours.
+                    Looking to  work together? Reach out through the form and I&aposll get back to you in the next 48 hours.
                 </p>
                 <Link href="/contact-us" className="p-3 hover:text-cyan-800 text-2xl">abc@gmail.com</Link><br/>
                 <Link href="/contact-us" className="p-3 hover:text-cyan-800 text-2xl">7896541230</Link>
