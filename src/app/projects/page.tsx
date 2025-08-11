@@ -11,7 +11,7 @@ export default function Projects() {
                 label: 'Know more',
                 link: '/contact-us'
             },
-            image: '/growrk.png'
+            image: '/project_1.jpg'
         },
         {
             id:'2',
@@ -21,7 +21,7 @@ export default function Projects() {
                 label: 'Know more',
                 link: '/contact-us'
             },
-            image: '/growrk.png'
+            image: '/project_2.jpg'
         },
          {
             id: '3',
@@ -31,7 +31,7 @@ export default function Projects() {
                 label: 'Know more',
                 link: '/contact-us'
             },
-            image: '/growrk.png'
+            image: '/project_1.jpg'
         },
          {
             id: '4',
@@ -41,7 +41,7 @@ export default function Projects() {
                 label: 'Know more',
                 link: '/contact-us'
             },
-            image: '/growrk.png'
+            image: '/project_2.jpg'
         },
          {
             id: '5',
@@ -51,7 +51,7 @@ export default function Projects() {
                 label: 'Know more',
                 link: '/contact-us'
             },
-            image: '/growrk.png'
+            image: '/project_1.jpg'
         },
          {
             id: '6',
@@ -61,7 +61,7 @@ export default function Projects() {
                 label: 'Know more',
                 link: '/contact-us'
             },
-            image: '/growrk.png'
+            image: '/project_2.jpg'
         }
     ]
     return (

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function LandingPage () {
-    return(
-        
-         <div className="grid md:grid-cols-2 items-center h-[90vh]">
+export default function LandingPage() {
+    return (
+
+        <div className="grid md:grid-cols-2 items-center h-[90vh] p-4 md:p-0">
             <div className="p-2 order-2 md:order-none">
                 <h2 className="text-2xl">Hey, I&apos;m Sruthy</h2>
                 <h1 className="font-bold text-6xl md:text-8xl">
@@ -22,8 +22,8 @@ export default function LandingPage () {
                     </button>
                 </div>
             </div>
-            <div className=" order-1 md:order-none">
-                <Image width={800} height={800} src="/profile.webp" alt="profile image"/>
+            <div className=" order-1 md:order-none rounded-full border-2 border-solid border-cyan-800 p-8 md:p-16 my-16 m-auto">
+                <Image width={800} height={800} src="/user.webp" alt="profile image" className="w-3xs h-3xs md:w-96 md:h-96 rounded-full" />
             </div>
         </div>
     )
